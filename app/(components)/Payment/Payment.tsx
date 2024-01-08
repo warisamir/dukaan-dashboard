@@ -12,7 +12,7 @@ const Payment = (props: Props) => {
   const [selectedMonth, setSelectedMonth] = useState("");
 
   const handleMonthChange = (event: FormEvent) => {
-    setSelectedMonth(event.target.value);
+    // setSelectedMonth(event.target.value);
   };
 
   const months = ["Last Month", "This Month", "Other"];
